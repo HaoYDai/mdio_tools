@@ -1,0 +1,15 @@
+# libmnl pkg-config file
+
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: libmdionetlink
+Description: mdio operattion through Netlink communication library to mdio-netlink module in the kernel
+URL: https://gitee.com/leemeiyung/libmdionetlink
+Version: @VERSION@
+Requires:
+Conflicts:
+Libs: -L${libdir} -lmdionetlink
+Cflags: -I${includedir}
